@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8286115F204262980023E883 /* GLMath.c in Sources */ = {isa = PBXBuildFile; fileRef = 8286114D204262980023E883 /* GLMath.c */; };
+		82861160204262980023E883 /* GLMathBezierCurve.c in Sources */ = {isa = PBXBuildFile; fileRef = 8286114F204262980023E883 /* GLMathBezierCurve.c */; };
+		82861161204262980023E883 /* GLMathMatrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 82861151204262980023E883 /* GLMathMatrix.c */; };
+		82861162204262980023E883 /* GLMathMatrixStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 82861153204262980023E883 /* GLMathMatrixStack.c */; };
+		82861163204262980023E883 /* GLMathQuaternion.c in Sources */ = {isa = PBXBuildFile; fileRef = 82861155204262980023E883 /* GLMathQuaternion.c */; };
+		82861164204262980023E883 /* GLMathTransforms.c in Sources */ = {isa = PBXBuildFile; fileRef = 82861157204262980023E883 /* GLMathTransforms.c */; };
+		82861165204262980023E883 /* GLMathUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 8286115A204262980023E883 /* GLMathUtilities.c */; };
+		82861166204262980023E883 /* GLMathUtilitiesInline.c in Sources */ = {isa = PBXBuildFile; fileRef = 8286115C204262980023E883 /* GLMathUtilitiesInline.c */; };
+		82861167204262980023E883 /* GLMathVector.c in Sources */ = {isa = PBXBuildFile; fileRef = 8286115D204262980023E883 /* GLMathVector.c */; };
 		8288E17A202D4A7300F4ECF5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8288E179202D4A7300F4ECF5 /* 1.jpg */; };
 		8288E190202D873D00F4ECF5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8288E18F202D873D00F4ECF5 /* SecondViewController.m */; };
 		8288E1A1202D8BC300F4ECF5 /* QMImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8288E19E202D8BC200F4ECF5 /* QMImageHelper.m */; };
@@ -198,15 +207,6 @@
 		82C79487203FDFA4005A455B /* QMFishEyeFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C79485203FDFA3005A455B /* QMFishEyeFilter.m */; };
 		82C79488203FDFA4005A455B /* QM3DLightFilter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 82C79486203FDFA4005A455B /* QM3DLightFilter.mm */; };
 		82C794AE203FE809005A455B /* TinyOBJModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 82C794A2203FE809005A455B /* TinyOBJModel.mm */; };
-		82C794C2203FE9F3005A455B /* GLMath.c in Sources */ = {isa = PBXBuildFile; fileRef = 82C794B0203FE9F3005A455B /* GLMath.c */; };
-		82C794C3203FE9F3005A455B /* GLMathBezierCurve.c in Sources */ = {isa = PBXBuildFile; fileRef = 82C794B2203FE9F3005A455B /* GLMathBezierCurve.c */; };
-		82C794C4203FE9F3005A455B /* GLMathMatrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 82C794B4203FE9F3005A455B /* GLMathMatrix.c */; };
-		82C794C5203FE9F3005A455B /* GLMathMatrixStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 82C794B6203FE9F3005A455B /* GLMathMatrixStack.c */; };
-		82C794C6203FE9F3005A455B /* GLMathQuaternion.c in Sources */ = {isa = PBXBuildFile; fileRef = 82C794B8203FE9F3005A455B /* GLMathQuaternion.c */; };
-		82C794C7203FE9F3005A455B /* GLMathTransforms.c in Sources */ = {isa = PBXBuildFile; fileRef = 82C794BA203FE9F3005A455B /* GLMathTransforms.c */; };
-		82C794C8203FE9F3005A455B /* GLMathUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 82C794BD203FE9F3005A455B /* GLMathUtilities.c */; };
-		82C794C9203FE9F3005A455B /* GLMathUtilitiesInline.c in Sources */ = {isa = PBXBuildFile; fileRef = 82C794BF203FE9F3005A455B /* GLMathUtilitiesInline.c */; };
-		82C794CA203FE9F3005A455B /* GLMathVector.c in Sources */ = {isa = PBXBuildFile; fileRef = 82C794C0203FE9F3005A455B /* GLMathVector.c */; };
 		82C794CD203FEA3B005A455B /* tiny_obj_loader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 82C794CC203FEA3A005A455B /* tiny_obj_loader.mm */; };
 		82C7E2F720415E3100CEA768 /* shop.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C7E2A720415E3000CEA768 /* shop.png */; };
 		82C7E2F820415E3100CEA768 /* shop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C7E2A820415E3000CEA768 /* shop@2x.png */; };
@@ -439,6 +439,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8286114D204262980023E883 /* GLMath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMath.c; sourceTree = "<group>"; };
+		8286114E204262980023E883 /* GLMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMath.h; sourceTree = "<group>"; };
+		8286114F204262980023E883 /* GLMathBezierCurve.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathBezierCurve.c; sourceTree = "<group>"; };
+		82861150204262980023E883 /* GLMathBezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathBezierCurve.h; sourceTree = "<group>"; };
+		82861151204262980023E883 /* GLMathMatrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathMatrix.c; sourceTree = "<group>"; };
+		82861152204262980023E883 /* GLMathMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathMatrix.h; sourceTree = "<group>"; };
+		82861153204262980023E883 /* GLMathMatrixStack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathMatrixStack.c; sourceTree = "<group>"; };
+		82861154204262980023E883 /* GLMathMatrixStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathMatrixStack.h; sourceTree = "<group>"; };
+		82861155204262980023E883 /* GLMathQuaternion.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathQuaternion.c; sourceTree = "<group>"; };
+		82861156204262980023E883 /* GLMathQuaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathQuaternion.h; sourceTree = "<group>"; };
+		82861157204262980023E883 /* GLMathTransforms.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathTransforms.c; sourceTree = "<group>"; };
+		82861158204262980023E883 /* GLMathTransforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathTransforms.h; sourceTree = "<group>"; };
+		82861159204262980023E883 /* GLMathTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathTypes.h; sourceTree = "<group>"; };
+		8286115A204262980023E883 /* GLMathUtilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathUtilities.c; sourceTree = "<group>"; };
+		8286115B204262980023E883 /* GLMathUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathUtilities.h; sourceTree = "<group>"; };
+		8286115C204262980023E883 /* GLMathUtilitiesInline.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathUtilitiesInline.c; sourceTree = "<group>"; };
+		8286115D204262980023E883 /* GLMathVector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathVector.c; sourceTree = "<group>"; };
+		8286115E204262980023E883 /* GLMathVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathVector.h; sourceTree = "<group>"; };
 		8288E179202D4A7300F4ECF5 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		8288E18E202D873D00F4ECF5 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		8288E18F202D873D00F4ECF5 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
@@ -822,24 +840,6 @@
 		82C79486203FDFA4005A455B /* QM3DLightFilter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QM3DLightFilter.mm; sourceTree = "<group>"; };
 		82C794A1203FE809005A455B /* TinyOBJModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyOBJModel.h; sourceTree = "<group>"; };
 		82C794A2203FE809005A455B /* TinyOBJModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TinyOBJModel.mm; sourceTree = "<group>"; };
-		82C794B0203FE9F3005A455B /* GLMath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMath.c; sourceTree = "<group>"; };
-		82C794B1203FE9F3005A455B /* GLMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMath.h; sourceTree = "<group>"; };
-		82C794B2203FE9F3005A455B /* GLMathBezierCurve.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathBezierCurve.c; sourceTree = "<group>"; };
-		82C794B3203FE9F3005A455B /* GLMathBezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathBezierCurve.h; sourceTree = "<group>"; };
-		82C794B4203FE9F3005A455B /* GLMathMatrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathMatrix.c; sourceTree = "<group>"; };
-		82C794B5203FE9F3005A455B /* GLMathMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathMatrix.h; sourceTree = "<group>"; };
-		82C794B6203FE9F3005A455B /* GLMathMatrixStack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathMatrixStack.c; sourceTree = "<group>"; };
-		82C794B7203FE9F3005A455B /* GLMathMatrixStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathMatrixStack.h; sourceTree = "<group>"; };
-		82C794B8203FE9F3005A455B /* GLMathQuaternion.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathQuaternion.c; sourceTree = "<group>"; };
-		82C794B9203FE9F3005A455B /* GLMathQuaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathQuaternion.h; sourceTree = "<group>"; };
-		82C794BA203FE9F3005A455B /* GLMathTransforms.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathTransforms.c; sourceTree = "<group>"; };
-		82C794BB203FE9F3005A455B /* GLMathTransforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathTransforms.h; sourceTree = "<group>"; };
-		82C794BC203FE9F3005A455B /* GLMathTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathTypes.h; sourceTree = "<group>"; };
-		82C794BD203FE9F3005A455B /* GLMathUtilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathUtilities.c; sourceTree = "<group>"; };
-		82C794BE203FE9F3005A455B /* GLMathUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathUtilities.h; sourceTree = "<group>"; };
-		82C794BF203FE9F3005A455B /* GLMathUtilitiesInline.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathUtilitiesInline.c; sourceTree = "<group>"; };
-		82C794C0203FE9F3005A455B /* GLMathVector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathVector.c; sourceTree = "<group>"; };
-		82C794C1203FE9F3005A455B /* GLMathVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathVector.h; sourceTree = "<group>"; };
 		82C794CB203FEA3A005A455B /* tiny_obj_loader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tiny_obj_loader.h; sourceTree = "<group>"; };
 		82C794CC203FEA3A005A455B /* tiny_obj_loader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = tiny_obj_loader.mm; sourceTree = "<group>"; };
 		82C7E2A720415E3000CEA768 /* shop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shop.png; sourceTree = "<group>"; };
@@ -1068,6 +1068,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8286114C204262980023E883 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				8286114D204262980023E883 /* GLMath.c */,
+				8286114E204262980023E883 /* GLMath.h */,
+				8286114F204262980023E883 /* GLMathBezierCurve.c */,
+				82861150204262980023E883 /* GLMathBezierCurve.h */,
+				82861151204262980023E883 /* GLMathMatrix.c */,
+				82861152204262980023E883 /* GLMathMatrix.h */,
+				82861153204262980023E883 /* GLMathMatrixStack.c */,
+				82861154204262980023E883 /* GLMathMatrixStack.h */,
+				82861155204262980023E883 /* GLMathQuaternion.c */,
+				82861156204262980023E883 /* GLMathQuaternion.h */,
+				82861157204262980023E883 /* GLMathTransforms.c */,
+				82861158204262980023E883 /* GLMathTransforms.h */,
+				82861159204262980023E883 /* GLMathTypes.h */,
+				8286115A204262980023E883 /* GLMathUtilities.c */,
+				8286115B204262980023E883 /* GLMathUtilities.h */,
+				8286115C204262980023E883 /* GLMathUtilitiesInline.c */,
+				8286115D204262980023E883 /* GLMathVector.c */,
+				8286115E204262980023E883 /* GLMathVector.h */,
+			);
+			name = Math;
+			path = "../../../../../新建三方/美颜实例/源码阅读系列/GPUImageFilter-09/GPUImageFilter/Math";
+			sourceTree = "<group>";
+		};
 		8288E191202D8BC200F4ECF5 /* Utils的副本 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1507,7 +1533,7 @@
 		82986EDD202AFE480048B4E2 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				82C794AF203FE9F3005A455B /* Math */,
+				8286114C204262980023E883 /* Math */,
 				8288E191202D8BC200F4ECF5 /* Utils的副本 */,
 				82986EDE202AFE480048B4E2 /* Framework */,
 				82986EE2202AFE480048B4E2 /* GPUImage-Prefix.pch */,
@@ -1533,32 +1559,6 @@
 				82986EE1202AFE480048B4E2 /* module.modulemap */,
 			);
 			path = Framework;
-			sourceTree = "<group>";
-		};
-		82C794AF203FE9F3005A455B /* Math */ = {
-			isa = PBXGroup;
-			children = (
-				82C794B0203FE9F3005A455B /* GLMath.c */,
-				82C794B1203FE9F3005A455B /* GLMath.h */,
-				82C794B2203FE9F3005A455B /* GLMathBezierCurve.c */,
-				82C794B3203FE9F3005A455B /* GLMathBezierCurve.h */,
-				82C794B4203FE9F3005A455B /* GLMathMatrix.c */,
-				82C794B5203FE9F3005A455B /* GLMathMatrix.h */,
-				82C794B6203FE9F3005A455B /* GLMathMatrixStack.c */,
-				82C794B7203FE9F3005A455B /* GLMathMatrixStack.h */,
-				82C794B8203FE9F3005A455B /* GLMathQuaternion.c */,
-				82C794B9203FE9F3005A455B /* GLMathQuaternion.h */,
-				82C794BA203FE9F3005A455B /* GLMathTransforms.c */,
-				82C794BB203FE9F3005A455B /* GLMathTransforms.h */,
-				82C794BC203FE9F3005A455B /* GLMathTypes.h */,
-				82C794BD203FE9F3005A455B /* GLMathUtilities.c */,
-				82C794BE203FE9F3005A455B /* GLMathUtilities.h */,
-				82C794BF203FE9F3005A455B /* GLMathUtilitiesInline.c */,
-				82C794C0203FE9F3005A455B /* GLMathVector.c */,
-				82C794C1203FE9F3005A455B /* GLMathVector.h */,
-			);
-			name = Math;
-			path = "../../../新建三方/美颜实例/源码阅读系列/GPUImageFilter-09/GPUImageFilter/Math";
 			sourceTree = "<group>";
 		};
 		82C7E2A620415E3000CEA768 /* 我的 */ = {
@@ -2140,12 +2140,14 @@
 				82986F1E202AFE490048B4E2 /* GPUImageDarkenBlendFilter.m in Sources */,
 				82C794AE203FE809005A455B /* TinyOBJModel.mm in Sources */,
 				82986F88202AFE490048B4E2 /* GPUImageSphereRefractionFilter.m in Sources */,
+				8286115F204262980023E883 /* GLMath.c in Sources */,
 				82C794CD203FEA3B005A455B /* tiny_obj_loader.mm in Sources */,
 				82986F6E202AFE490048B4E2 /* GPUImagePolkaDotFilter.m in Sources */,
 				82986F2F202AFE490048B4E2 /* GPUImageFramebuffer.m in Sources */,
 				82986F5C202AFE490048B4E2 /* GPUImageMotionDetector.m in Sources */,
 				82986F12202AFE490048B4E2 /* GPUImageColorConversion.m in Sources */,
 				82986F5B202AFE490048B4E2 /* GPUImageMotionBlurFilter.m in Sources */,
+				82861161204262980023E883 /* GLMathMatrix.c in Sources */,
 				82986F15202AFE490048B4E2 /* GPUImageColorLocalBinaryPatternFilter.m in Sources */,
 				82986F53202AFE490048B4E2 /* GPUImageLuminanceThresholdFilter.m in Sources */,
 				82C79488203FDFA4005A455B /* QM3DLightFilter.mm in Sources */,
@@ -2153,7 +2155,6 @@
 				82986F99202AFE490048B4E2 /* GPUImageTwoPassFilter.m in Sources */,
 				82986F0E202AFE490048B4E2 /* GPUImageChromaKeyFilter.m in Sources */,
 				82986F33202AFE490048B4E2 /* GPUImageGaussianBlurPositionFilter.m in Sources */,
-				82C794C9203FE9F3005A455B /* GLMathUtilitiesInline.c in Sources */,
 				82986F38202AFE490048B4E2 /* GPUImageHardLightBlendFilter.m in Sources */,
 				82986FA0202AFE490048B4E2 /* GPUImageVoronoiConsumerFilter.m in Sources */,
 				82986F52202AFE490048B4E2 /* GPUImageLuminanceRangeFilter.m in Sources */,
@@ -2179,7 +2180,6 @@
 				82986F7B202AFE490048B4E2 /* GPUImageSepiaFilter.m in Sources */,
 				82986F66202AFE490048B4E2 /* GPUImageOverlayBlendFilter.m in Sources */,
 				82986F85202AFE490048B4E2 /* GPUImageSolarizeFilter.m in Sources */,
-				82C794C2203FE9F3005A455B /* GLMath.c in Sources */,
 				82986F05202AFE490048B4E2 /* GPUImageAverageLuminanceThresholdFilter.m in Sources */,
 				82986F90202AFE490048B4E2 /* GPUImageThresholdEdgeDetectionFilter.m in Sources */,
 				82986F10202AFE490048B4E2 /* GPUImageColorBlendFilter.m in Sources */,
@@ -2200,12 +2200,10 @@
 				82986F31202AFE490048B4E2 /* GPUImageGammaFilter.m in Sources */,
 				82986F6D202AFE490048B4E2 /* GPUImagePolarPixellateFilter.m in Sources */,
 				82986F6C202AFE490048B4E2 /* GPUImagePoissonBlendFilter.m in Sources */,
-				82C794C4203FE9F3005A455B /* GLMathMatrix.c in Sources */,
 				82986F86202AFE490048B4E2 /* GPUImageSolidColorGenerator.m in Sources */,
 				82986F43202AFE490048B4E2 /* GPUImageHueBlendFilter.m in Sources */,
 				82986EFD202AFE490048B4E2 /* GLProgram.m in Sources */,
 				82986FAA202AFE490048B4E2 /* GPUImageView.m in Sources */,
-				82C794C8203FE9F3005A455B /* GLMathUtilities.c in Sources */,
 				82986F00202AFE490048B4E2 /* GPUImageAdaptiveThresholdFilter.m in Sources */,
 				82986F46202AFE490048B4E2 /* GPUImageJFAVoronoiFilter.m in Sources */,
 				82986F17202AFE490048B4E2 /* GPUImageColorPackingFilter.m in Sources */,
@@ -2215,7 +2213,6 @@
 				82986F8E202AFE490048B4E2 /* GPUImageTextureOutput.m in Sources */,
 				82986F51202AFE490048B4E2 /* GPUImageLowPassFilter.m in Sources */,
 				82986F73202AFE490048B4E2 /* GPUImageRGBClosingFilter.m in Sources */,
-				82C794C5203FE9F3005A455B /* GLMathMatrixStack.c in Sources */,
 				82986F41202AFE490048B4E2 /* GPUImageHoughTransformLineDetector.m in Sources */,
 				82986F1D202AFE490048B4E2 /* GPUImageCrosshatchFilter.m in Sources */,
 				82986F79202AFE490048B4E2 /* GPUImageSaturationFilter.m in Sources */,
@@ -2226,6 +2223,7 @@
 				82986F22202AFE490048B4E2 /* GPUImageDirectionalSobelEdgeDetectionFilter.m in Sources */,
 				82986F54202AFE490048B4E2 /* GPUImageLuminosity.m in Sources */,
 				82986F80202AFE490048B4E2 /* GPUImageSkinToneFilter.m in Sources */,
+				82861166204262980023E883 /* GLMathUtilitiesInline.c in Sources */,
 				82986F50202AFE490048B4E2 /* GPUImageLookupFilter.m in Sources */,
 				82986F8D202AFE490048B4E2 /* GPUImageTextureInput.m in Sources */,
 				82986FA8202AFE490048B4E2 /* GPUImagePicture+TextureSubimage.m in Sources */,
@@ -2254,9 +2252,9 @@
 				82986FA2202AFE490048B4E2 /* GPUImageWhiteBalanceFilter.m in Sources */,
 				82986F1C202AFE490048B4E2 /* GPUImageCrosshairGenerator.m in Sources */,
 				82986F24202AFE490048B4E2 /* GPUImageDivideBlendFilter.m in Sources */,
+				82861165204262980023E883 /* GLMathUtilities.c in Sources */,
 				82986F30202AFE490048B4E2 /* GPUImageFramebufferCache.m in Sources */,
 				82986F55202AFE490048B4E2 /* GPUImageLuminosityBlendFilter.m in Sources */,
-				82C794C7203FE9F3005A455B /* GLMathTransforms.c in Sources */,
 				82986F6F202AFE490048B4E2 /* GPUImagePosterizeFilter.m in Sources */,
 				82986F23202AFE490048B4E2 /* GPUImageDissolveBlendFilter.m in Sources */,
 				82986F3B202AFE490048B4E2 /* GPUImageHighlightShadowFilter.m in Sources */,
@@ -2272,21 +2270,21 @@
 				82986F60202AFE490048B4E2 /* GPUImageNobleCornerDetectionFilter.m in Sources */,
 				8288E1A1202D8BC300F4ECF5 /* QMImageHelper.m in Sources */,
 				82986F14202AFE490048B4E2 /* GPUImageColorInvertFilter.m in Sources */,
+				82861163204262980023E883 /* GLMathQuaternion.c in Sources */,
 				82986FA3202AFE490048B4E2 /* GPUImageXYDerivativeFilter.m in Sources */,
 				82986F8B202AFE490048B4E2 /* GPUImageSubtractBlendFilter.m in Sources */,
 				82986F20202AFE490048B4E2 /* GPUImageDilationFilter.m in Sources */,
-				82C794C6203FE9F3005A455B /* GLMathQuaternion.c in Sources */,
 				82986F72202AFE490048B4E2 /* GPUImageRawDataOutput.m in Sources */,
 				82986F44202AFE490048B4E2 /* GPUImageHueFilter.m in Sources */,
 				82986F02202AFE490048B4E2 /* GPUImageAlphaBlendFilter.m in Sources */,
 				82986F28202AFE490048B4E2 /* GPUImageExposureFilter.m in Sources */,
+				82861162204262980023E883 /* GLMathMatrixStack.c in Sources */,
 				82986F48202AFE490048B4E2 /* GPUImageKuwaharaRadius3Filter.m in Sources */,
 				82986F25202AFE490048B4E2 /* GPUImageEmbossFilter.m in Sources */,
 				82986D7C202AFA980048B4E2 /* CoreViewController.m in Sources */,
 				82986FA1202AFE490048B4E2 /* GPUImageWeakPixelInclusionFilter.m in Sources */,
 				82986F96202AFE490048B4E2 /* GPUImageTransformFilter.m in Sources */,
 				82986F83202AFE490048B4E2 /* GPUImageSoftEleganceFilter.m in Sources */,
-				82C794CA203FE9F3005A455B /* GLMathVector.c in Sources */,
 				82986F9E202AFE490048B4E2 /* GPUImageVideoCamera.m in Sources */,
 				82986F47202AFE490048B4E2 /* GPUImageKuwaharaFilter.m in Sources */,
 				82986F6A202AFE490048B4E2 /* GPUImagePixellateFilter.m in Sources */,
@@ -2296,12 +2294,14 @@
 				82986FA7202AFE490048B4E2 /* GPUImageMovieWriter.m in Sources */,
 				82986F6B202AFE490048B4E2 /* GPUImagePixellatePositionFilter.m in Sources */,
 				82986F0F202AFE490048B4E2 /* GPUImageClosingFilter.m in Sources */,
+				82861160204262980023E883 /* GLMathBezierCurve.c in Sources */,
 				82986F64202AFE490048B4E2 /* GPUImageOpeningFilter.m in Sources */,
 				82986F27202AFE490048B4E2 /* GPUImageExclusionBlendFilter.m in Sources */,
 				82986F11202AFE490048B4E2 /* GPUImageColorBurnBlendFilter.m in Sources */,
 				82986F0C202AFE490048B4E2 /* GPUImageCGAColorspaceFilter.m in Sources */,
 				82986F1A202AFE490048B4E2 /* GPUImageContrastFilter.m in Sources */,
 				82986F34202AFE490048B4E2 /* GPUImageGaussianSelectiveBlurFilter.m in Sources */,
+				82861167204262980023E883 /* GLMathVector.c in Sources */,
 				82986F4B202AFE490048B4E2 /* GPUImageLevelsFilter.m in Sources */,
 				82986F04202AFE490048B4E2 /* GPUImageAverageColor.m in Sources */,
 				82986F09202AFE490048B4E2 /* GPUImageBuffer.m in Sources */,
@@ -2316,8 +2316,8 @@
 				82986F4A202AFE490048B4E2 /* GPUImageLaplacianFilter.m in Sources */,
 				82986F78202AFE490048B4E2 /* GPUImageSaturationBlendFilter.m in Sources */,
 				82986F29202AFE490048B4E2 /* GPUImageFalseColorFilter.m in Sources */,
+				82861164204262980023E883 /* GLMathTransforms.c in Sources */,
 				82986F9A202AFE490048B4E2 /* GPUImageTwoPassTextureSamplingFilter.m in Sources */,
-				82C794C3203FE9F3005A455B /* GLMathBezierCurve.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
