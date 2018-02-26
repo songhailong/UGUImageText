@@ -10,6 +10,7 @@
 #import "GPUImage.h"
 #import "SecondViewController.h"
 #import "CoreViewController.h"
+#import "FaceTextViewController.h"
 NSString *const kTwoInputFragmentShaderString = SHADER_STRING
 (
  varying highp vec2 textureCoordinate;
@@ -143,8 +144,10 @@ NSString *const kTwoInputFragmentShaderString = SHADER_STRING
     [self presentViewController:sc animated:YES completion:nil];
 }
 -(void)startButton5{
-    CoreViewController *sc=[[CoreViewController alloc] init];
-    [self presentViewController:sc animated:YES completion:nil];
+//    CoreViewController *sc=[[CoreViewController alloc] init];
+//    [self presentViewController:sc animated:YES completion:nil];
+    FaceTextViewController *vc=[[FaceTextViewController alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

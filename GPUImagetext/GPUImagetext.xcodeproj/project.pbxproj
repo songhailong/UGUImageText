@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		827134ED2042B29700448FB3 /* BeautifyFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 827134EA2042B29600448FB3 /* BeautifyFilterViewController.m */; };
+		827134EE2042B29700448FB3 /* GPUImageFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 827134EB2042B29700448FB3 /* GPUImageFilterViewController.m */; };
 		8286115F204262980023E883 /* GLMath.c in Sources */ = {isa = PBXBuildFile; fileRef = 8286114D204262980023E883 /* GLMath.c */; };
 		82861160204262980023E883 /* GLMathBezierCurve.c in Sources */ = {isa = PBXBuildFile; fileRef = 8286114F204262980023E883 /* GLMathBezierCurve.c */; };
 		82861161204262980023E883 /* GLMathMatrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 82861151204262980023E883 /* GLMathMatrix.c */; };
@@ -16,6 +18,19 @@
 		82861165204262980023E883 /* GLMathUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 8286115A204262980023E883 /* GLMathUtilities.c */; };
 		82861166204262980023E883 /* GLMathUtilitiesInline.c in Sources */ = {isa = PBXBuildFile; fileRef = 8286115C204262980023E883 /* GLMathUtilitiesInline.c */; };
 		82861167204262980023E883 /* GLMathVector.c in Sources */ = {isa = PBXBuildFile; fileRef = 8286115D204262980023E883 /* GLMathVector.c */; };
+		828611832042A76B0023E883 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 828611692042A76A0023E883 /* Info.plist */; };
+		828611842042A76B0023E883 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8286116B2042A76A0023E883 /* MASCompositeConstraint.m */; };
+		828611852042A76B0023E883 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8286116E2042A76A0023E883 /* MASConstraint.m */; };
+		828611862042A76B0023E883 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 828611702042A76A0023E883 /* MASConstraintMaker.m */; };
+		828611872042A76B0023E883 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 828611722042A76A0023E883 /* MASLayoutConstraint.m */; };
+		828611882042A76B0023E883 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 828611762042A76A0023E883 /* MASViewAttribute.m */; };
+		828611892042A76B0023E883 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 828611782042A76A0023E883 /* MASViewConstraint.m */; };
+		8286118A2042A76B0023E883 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8286117A2042A76A0023E883 /* NSArray+MASAdditions.m */; };
+		8286118B2042A76B0023E883 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8286117D2042A76A0023E883 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		8286118C2042A76B0023E883 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8286117F2042A76A0023E883 /* View+MASAdditions.m */; };
+		8286118D2042A76B0023E883 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 828611822042A76A0023E883 /* ViewController+MASAdditions.m */; };
+		828611902042A7BF0023E883 /* FaceTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8286118F2042A7BF0023E883 /* FaceTextViewController.m */; };
+		828611932042A7D70023E883 /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 828611912042A7D60023E883 /* GPUImageBeautifyFilter.m */; };
 		8288E17A202D4A7300F4ECF5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8288E179202D4A7300F4ECF5 /* 1.jpg */; };
 		8288E190202D873D00F4ECF5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8288E18F202D873D00F4ECF5 /* SecondViewController.m */; };
 		8288E1A1202D8BC300F4ECF5 /* QMImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8288E19E202D8BC200F4ECF5 /* QMImageHelper.m */; };
@@ -439,6 +454,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		827134E92042B29600448FB3 /* GPUImageFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageFilterViewController.h; sourceTree = "<group>"; };
+		827134EA2042B29600448FB3 /* BeautifyFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeautifyFilterViewController.m; sourceTree = "<group>"; };
+		827134EB2042B29700448FB3 /* GPUImageFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageFilterViewController.m; sourceTree = "<group>"; };
+		827134EC2042B29700448FB3 /* BeautifyFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeautifyFilterViewController.h; sourceTree = "<group>"; };
 		8286114D204262980023E883 /* GLMath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMath.c; sourceTree = "<group>"; };
 		8286114E204262980023E883 /* GLMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMath.h; sourceTree = "<group>"; };
 		8286114F204262980023E883 /* GLMathBezierCurve.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathBezierCurve.c; sourceTree = "<group>"; };
@@ -457,6 +476,36 @@
 		8286115C204262980023E883 /* GLMathUtilitiesInline.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathUtilitiesInline.c; sourceTree = "<group>"; };
 		8286115D204262980023E883 /* GLMathVector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLMathVector.c; sourceTree = "<group>"; };
 		8286115E204262980023E883 /* GLMathVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMathVector.h; sourceTree = "<group>"; };
+		828611692042A76A0023E883 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8286116A2042A76A0023E883 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		8286116B2042A76A0023E883 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		8286116C2042A76A0023E883 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		8286116D2042A76A0023E883 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		8286116E2042A76A0023E883 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		8286116F2042A76A0023E883 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		828611702042A76A0023E883 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		828611712042A76A0023E883 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		828611722042A76A0023E883 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		828611732042A76A0023E883 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		828611742042A76A0023E883 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		828611752042A76A0023E883 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		828611762042A76A0023E883 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		828611772042A76A0023E883 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		828611782042A76A0023E883 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		828611792042A76A0023E883 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		8286117A2042A76A0023E883 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		8286117B2042A76A0023E883 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		8286117C2042A76A0023E883 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		8286117D2042A76A0023E883 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		8286117E2042A76A0023E883 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		8286117F2042A76A0023E883 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		828611802042A76A0023E883 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		828611812042A76A0023E883 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		828611822042A76A0023E883 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		8286118E2042A7BF0023E883 /* FaceTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceTextViewController.h; sourceTree = "<group>"; };
+		8286118F2042A7BF0023E883 /* FaceTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceTextViewController.m; sourceTree = "<group>"; };
+		828611912042A7D60023E883 /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
+		828611922042A7D70023E883 /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
 		8288E179202D4A7300F4ECF5 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		8288E18E202D873D00F4ECF5 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		8288E18F202D873D00F4ECF5 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
@@ -1094,6 +1143,39 @@
 			path = "../../../../../新建三方/美颜实例/源码阅读系列/GPUImageFilter-09/GPUImageFilter/Math";
 			sourceTree = "<group>";
 		};
+		828611682042A76A0023E883 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				828611692042A76A0023E883 /* Info.plist */,
+				8286116A2042A76A0023E883 /* MASCompositeConstraint.h */,
+				8286116B2042A76A0023E883 /* MASCompositeConstraint.m */,
+				8286116C2042A76A0023E883 /* MASConstraint+Private.h */,
+				8286116D2042A76A0023E883 /* MASConstraint.h */,
+				8286116E2042A76A0023E883 /* MASConstraint.m */,
+				8286116F2042A76A0023E883 /* MASConstraintMaker.h */,
+				828611702042A76A0023E883 /* MASConstraintMaker.m */,
+				828611712042A76A0023E883 /* MASLayoutConstraint.h */,
+				828611722042A76A0023E883 /* MASLayoutConstraint.m */,
+				828611732042A76A0023E883 /* Masonry.h */,
+				828611742042A76A0023E883 /* MASUtilities.h */,
+				828611752042A76A0023E883 /* MASViewAttribute.h */,
+				828611762042A76A0023E883 /* MASViewAttribute.m */,
+				828611772042A76A0023E883 /* MASViewConstraint.h */,
+				828611782042A76A0023E883 /* MASViewConstraint.m */,
+				828611792042A76A0023E883 /* NSArray+MASAdditions.h */,
+				8286117A2042A76A0023E883 /* NSArray+MASAdditions.m */,
+				8286117B2042A76A0023E883 /* NSArray+MASShorthandAdditions.h */,
+				8286117C2042A76A0023E883 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				8286117D2042A76A0023E883 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				8286117E2042A76A0023E883 /* View+MASAdditions.h */,
+				8286117F2042A76A0023E883 /* View+MASAdditions.m */,
+				828611802042A76A0023E883 /* View+MASShorthandAdditions.h */,
+				828611812042A76A0023E883 /* ViewController+MASAdditions.h */,
+				828611822042A76A0023E883 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
 		8288E191202D8BC200F4ECF5 /* Utils的副本 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1111,6 +1193,7 @@
 		82986D3C202AFA3E0048B4E2 = {
 			isa = PBXGroup;
 			children = (
+				828611682042A76A0023E883 /* Masonry */,
 				82C7E3CF20415E4100CEA768 /* mainimg */,
 				82C7E34620415E3700CEA768 /* 商品 */,
 				82C7E2A620415E3000CEA768 /* 我的 */,
@@ -1151,6 +1234,14 @@
 				82986D7B202AFA980048B4E2 /* CoreViewController.m */,
 				8288E18E202D873D00F4ECF5 /* SecondViewController.h */,
 				8288E18F202D873D00F4ECF5 /* SecondViewController.m */,
+				8286118E2042A7BF0023E883 /* FaceTextViewController.h */,
+				8286118F2042A7BF0023E883 /* FaceTextViewController.m */,
+				828611922042A7D70023E883 /* GPUImageBeautifyFilter.h */,
+				828611912042A7D60023E883 /* GPUImageBeautifyFilter.m */,
+				827134EC2042B29700448FB3 /* BeautifyFilterViewController.h */,
+				827134EA2042B29600448FB3 /* BeautifyFilterViewController.m */,
+				827134E92042B29600448FB3 /* GPUImageFilterViewController.h */,
+				827134EB2042B29700448FB3 /* GPUImageFilterViewController.m */,
 				82986D4E202AFA3E0048B4E2 /* Main.storyboard */,
 				82986D51202AFA3E0048B4E2 /* Assets.xcassets */,
 				82986D53202AFA3E0048B4E2 /* LaunchScreen.storyboard */,
@@ -1952,6 +2043,7 @@
 				82C7E32220415E3100CEA768 /* 定位绿.png in Resources */,
 				82C7E3BF20415E3700CEA768 /* 竖分割线@2x.png in Resources */,
 				82C7E41C20415E4200CEA768 /* 品牌选中@2x.png in Resources */,
+				828611832042A76B0023E883 /* Info.plist in Resources */,
 				82C7E39320415E3700CEA768 /* 使用优惠券-选中@2x.png in Resources */,
 				82C7E31320415E3100CEA768 /* 普通订单@3x.png in Resources */,
 				82C7E3AB20415E3700CEA768 /* 导航栏下横线@2x.png in Resources */,
@@ -2126,6 +2218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				828611902042A7BF0023E883 /* FaceTextViewController.m in Sources */,
 				8288E190202D873D00F4ECF5 /* SecondViewController.m in Sources */,
 				82986EFE202AFE490048B4E2 /* GPUImage3x3ConvolutionFilter.m in Sources */,
 				82986F2E202AFE490048B4E2 /* GPUImageFourInputFilter.m in Sources */,
@@ -2150,6 +2243,9 @@
 				82861161204262980023E883 /* GLMathMatrix.c in Sources */,
 				82986F15202AFE490048B4E2 /* GPUImageColorLocalBinaryPatternFilter.m in Sources */,
 				82986F53202AFE490048B4E2 /* GPUImageLuminanceThresholdFilter.m in Sources */,
+				827134ED2042B29700448FB3 /* BeautifyFilterViewController.m in Sources */,
+				828611872042A76B0023E883 /* MASLayoutConstraint.m in Sources */,
+				828611852042A76B0023E883 /* MASConstraint.m in Sources */,
 				82C79488203FDFA4005A455B /* QM3DLightFilter.mm in Sources */,
 				82986F98202AFE490048B4E2 /* GPUImageTwoInputFilter.m in Sources */,
 				82986F99202AFE490048B4E2 /* GPUImageTwoPassFilter.m in Sources */,
@@ -2158,6 +2254,7 @@
 				82986F38202AFE490048B4E2 /* GPUImageHardLightBlendFilter.m in Sources */,
 				82986FA0202AFE490048B4E2 /* GPUImageVoronoiConsumerFilter.m in Sources */,
 				82986F52202AFE490048B4E2 /* GPUImageLuminanceRangeFilter.m in Sources */,
+				828611842042A76B0023E883 /* MASCompositeConstraint.m in Sources */,
 				82986F2A202AFE490048B4E2 /* GPUImageFASTCornerDetectionFilter.m in Sources */,
 				82986FA4202AFE490048B4E2 /* GPUImageZoomBlurFilter.m in Sources */,
 				82986F8F202AFE490048B4E2 /* GPUImageThreeInputFilter.m in Sources */,
@@ -2168,10 +2265,12 @@
 				82986F5D202AFE490048B4E2 /* GPUImageMovie.m in Sources */,
 				82986F7E202AFE490048B4E2 /* GPUImageSingleComponentGaussianBlurFilter.m in Sources */,
 				82986F9C202AFE490048B4E2 /* GPUImageUnsharpMaskFilter.m in Sources */,
+				828611892042A76B0023E883 /* MASViewConstraint.m in Sources */,
 				82986F32202AFE490048B4E2 /* GPUImageGaussianBlurFilter.m in Sources */,
 				82986F8A202AFE490048B4E2 /* GPUImageStretchDistortionFilter.m in Sources */,
 				82986F37202AFE490048B4E2 /* GPUImageHalftoneFilter.m in Sources */,
 				82986D58202AFA3E0048B4E2 /* main.m in Sources */,
+				8286118D2042A76B0023E883 /* ViewController+MASAdditions.m in Sources */,
 				82986F4D202AFE490048B4E2 /* GPUImageLinearBurnBlendFilter.m in Sources */,
 				82986F9D202AFE490048B4E2 /* GPUImageVibranceFilter.m in Sources */,
 				82986F08202AFE490048B4E2 /* GPUImageBrightnessFilter.m in Sources */,
@@ -2210,8 +2309,10 @@
 				82986F03202AFE490048B4E2 /* GPUImageAmatorkaFilter.m in Sources */,
 				82986F0B202AFE490048B4E2 /* GPUImageCannyEdgeDetectionFilter.m in Sources */,
 				82986F9F202AFE490048B4E2 /* GPUImageVignetteFilter.m in Sources */,
+				828611862042A76B0023E883 /* MASConstraintMaker.m in Sources */,
 				82986F8E202AFE490048B4E2 /* GPUImageTextureOutput.m in Sources */,
 				82986F51202AFE490048B4E2 /* GPUImageLowPassFilter.m in Sources */,
+				828611932042A7D70023E883 /* GPUImageBeautifyFilter.m in Sources */,
 				82986F73202AFE490048B4E2 /* GPUImageRGBClosingFilter.m in Sources */,
 				82986F41202AFE490048B4E2 /* GPUImageHoughTransformLineDetector.m in Sources */,
 				82986F1D202AFE490048B4E2 /* GPUImageCrosshatchFilter.m in Sources */,
@@ -2225,6 +2326,7 @@
 				82986F80202AFE490048B4E2 /* GPUImageSkinToneFilter.m in Sources */,
 				82861166204262980023E883 /* GLMathUtilitiesInline.c in Sources */,
 				82986F50202AFE490048B4E2 /* GPUImageLookupFilter.m in Sources */,
+				8286118A2042A76B0023E883 /* NSArray+MASAdditions.m in Sources */,
 				82986F8D202AFE490048B4E2 /* GPUImageTextureInput.m in Sources */,
 				82986FA8202AFE490048B4E2 /* GPUImagePicture+TextureSubimage.m in Sources */,
 				82986F71202AFE490048B4E2 /* GPUImageRawDataInput.m in Sources */,
@@ -2235,6 +2337,7 @@
 				82986F2B202AFE490048B4E2 /* GPUImageFilter.m in Sources */,
 				82986F13202AFE490048B4E2 /* GPUImageColorDodgeBlendFilter.m in Sources */,
 				82986F3D202AFE490048B4E2 /* GPUImageHighPassFilter.m in Sources */,
+				827134EE2042B29700448FB3 /* GPUImageFilterViewController.m in Sources */,
 				82986F39202AFE490048B4E2 /* GPUImageHarrisCornerDetectionFilter.m in Sources */,
 				82986F56202AFE490048B4E2 /* GPUImageMaskFilter.m in Sources */,
 				82986F1B202AFE490048B4E2 /* GPUImageCropFilter.m in Sources */,
@@ -2263,6 +2366,7 @@
 				82986F3E202AFE490048B4E2 /* GPUImageHistogramEqualizationFilter.m in Sources */,
 				82986F82202AFE490048B4E2 /* GPUImageSobelEdgeDetectionFilter.m in Sources */,
 				82986F5E202AFE490048B4E2 /* GPUImageMovieComposition.m in Sources */,
+				8286118B2042A76B0023E883 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				82986F3C202AFE490048B4E2 /* GPUImageHighlightShadowTintFilter.m in Sources */,
 				82986F65202AFE490048B4E2 /* GPUImageOutput.m in Sources */,
 				82986F5A202AFE490048B4E2 /* GPUImageMosaicFilter.m in Sources */,
@@ -2277,8 +2381,10 @@
 				82986F72202AFE490048B4E2 /* GPUImageRawDataOutput.m in Sources */,
 				82986F44202AFE490048B4E2 /* GPUImageHueFilter.m in Sources */,
 				82986F02202AFE490048B4E2 /* GPUImageAlphaBlendFilter.m in Sources */,
+				828611882042A76B0023E883 /* MASViewAttribute.m in Sources */,
 				82986F28202AFE490048B4E2 /* GPUImageExposureFilter.m in Sources */,
 				82861162204262980023E883 /* GLMathMatrixStack.c in Sources */,
+				8286118C2042A76B0023E883 /* View+MASAdditions.m in Sources */,
 				82986F48202AFE490048B4E2 /* GPUImageKuwaharaRadius3Filter.m in Sources */,
 				82986F25202AFE490048B4E2 /* GPUImageEmbossFilter.m in Sources */,
 				82986D7C202AFA980048B4E2 /* CoreViewController.m in Sources */,
@@ -2483,6 +2589,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 669UDNZ7MP;
 				INFOPLIST_FILE = GPUImagetext/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2502,6 +2609,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 669UDNZ7MP;
 				INFOPLIST_FILE = GPUImagetext/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
